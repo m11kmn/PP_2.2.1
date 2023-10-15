@@ -7,7 +7,6 @@ import javax.transaction.Transactional;
 
 @Entity
 @Table(name = "cars")
-@Component
 public class Car {
 
     @Id
